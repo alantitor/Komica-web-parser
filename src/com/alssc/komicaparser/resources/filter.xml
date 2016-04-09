@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  -->
+
+<filter>
+  <meta-data>
+		<title>Komica</title>
+		<time>01/10/2016</time>
+		<version>0.8.0</version>
+		<uses-kpt targetKpt="1.0.0" />
+	</meta-data>
+
+  <filter-def>
+      
+
+  </filter-def>
+</filter>

@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The parser rules for komica -->
+
+<komica-configuration>
+	<meta-data>
+		<title>Komica</title>
+		<time>01/10/2016</time>
+		<version>0.8.0</version>
+		<uses-kpt targetKpt="1.0.0" />
+	</meta-data>
+
+	<source>
+		<title>Komica</title>
+		<site-url>http://web.komica.org/</site-url>
+		<menu-url>http://web.komica.org/bbsmenu.html</menu-url>
+
+		<use-mapping type="menu">
+			<property key="KOMICA" value="mapping1.1" />
+		</use-mapping>
+
+		<use-mapping type="bulletin">
+			<property key="連線板.貓管理部" value="" />
+      		<property key="連線板.站務公告" value="" />
+      		<property key="連線板.動畫" value="" />
+		    <property key="連線板.漫畫" value="" />
+		    <property key="連線板.影視" value="" />
+   		    <property key="連線板.綜合" value="" />
+      		<property key="連線板.掛圖" value="" />
+	        <property key="連線板.氣象" value="" />
+			<property key="連線板.綜合2" value="" />
+      		<property key="連線板.新番捏他" value="" />
+      		<property key="連線板.三次實況" value="" />
+      		<property key="連線板.新番實況" value="mapping2.1" />
+      		<property key="連線板.模型" value="" />
+      		<property key="連線板.玩偶" value="" />
+      		<property key="連線板.Figure/GK" value="" />
+      		<property key="連線板.螢幕攝" value="" />
+      		<property key="連線板.歡樂惡搞" value="" />
+      		<property key="連線板.特攝" value="" />
+      		<property key="連線板.祭典" value="" />
+      		<property key="連線板.治癒系" value="" />
+      		<property key="連線板.蘿蔔" value="" />
+      		<property key="連線板.攝影" value="" />
+      		<property key="連線板.軍武" value="" />
+      		<property key="連線板.車" value="" />
+      		<property key="連線板.詢問" value="" />
+     		<property key="連線板.AA" value="" />
+      		<property key="連線板.COSPLAY" value="" />
+      		<property key="連線板.改造" value="" />
+      		<property key="連線板.委託" value="" />
+      		<property key="連線板.投票所" value="" />
+      		<property key="連線板.問答" value="" />
+      		<property key="連線板.UP" value="" />
+      		
+      		<property key="連線二板.綜合學術" value="" />
+      		<property key="連線二板.數學" value="" />
+  		    <property key="連線二板.歷史" value="" />
+  		    <property key="連線二板.地理" value="" />
+    		<property key="連線二板.校園" value="" />
+  		    <property key="連線二板.職業" value="" />
+     		<property key="連線二板.財經" value="" />
+		    <property key="連線二板.生活消費" value="" />
+  		    <property key="連線二板.法律" value="" />
+ 		    <property key="連線二板.閒談@香港" value="" />
+      		<property key="連線二板.消費電子" value="" />
+      		<property key="連線二板.藝術" value="" />
+      		<property key="連線二板.繪師" value="" />
+      		<property key="連線二板.角色商品" value="" />
+      		<property key="連線二板.交易合購" value="" />
+      		<property key="連線二板.鋼普拉" value="" />
+      		<property key="連線二板.生存遊戲" value="" />
+      		<property key="連線二板.鐵道" value="" />
+      		<property key="連線二板.燃" value="" />
+      		<property key="連線二板.笑話" value="" />
+      		<property key="連線二板.猜謎" value="" />
+      		<property key="連線二板.故事接龍" value="" />
+      		<property key="連線二板.歐美漫畫" value="" />
+      		<property key="連線二板.歐美動畫" value="" />
+      		<property key="連線二板.大自然" value="" />
+      		<property key="連線二板.天文" value="" />
+      		<property key="連線二板.星座命理" value="" />
+      		<property key="連線二板.New Age" value="" />
+      		<property key="連線二板.戀愛" value="" />
+      		<property key="連線二板.超常現象" value="" />
+      		<property key="連線二板.夢" value="" />
+      		<property key="連線二板.流言終結" value="" />
+      		<property key="連線二板.政治" value="" />
+      		<property key="連線二板.旅遊" value="" />
+      		<property key="連線二板.耳機" value="" />
+      		<property key="連線二板.手機" value="" />
+      		<property key="連線二板.服飾" value="" />
+      		<property key="連線二板.美容" value="" />
+      		<property key="連線二板.髮型" value="" />
+      		<property key="連線二板.家政" value="" />
+      		<property key="連線二板.手工藝" value="" />
+      		<property key="連線二板.痛物" value="" />
+      		<property key="連線二板.圖書" value="" />
+      		<property key="連線二板.讀書筆記" value="" />
+      		<property key="連線二板.煩惱相談" value="" />
+      		<property key="連線二板.安價" value="" />
+      		
+      		<property key="影音.短片" value="" />
+			<property key="影音.短片2" value="" />
+			<property key="影音.彈幕" value="" />
+			<property key="影音.直播" value="" />
+			<property key="影音.Video" value="" />
+      		
+      		<property key="遊戲.遊戲速報" value="" />
+      		<property key="遊戲.綜合遊戲" value="" />
+      		<property key="遊戲.動作遊戲" value="" />
+      		<property key="遊戲.格鬥遊戲" value="" />
+      		<property key="遊戲.2D STG" value="" />
+      		<property key="遊戲.3D STG" value="" />
+      		<property key="遊戲.冒險遊戲" value="" />
+      		<property key="遊戲.RPG" value="" />
+      		<property key="遊戲.賽車遊戲" value="" />
+      		<property key="遊戲.戰略遊戲" value="" />
+      		<property key="遊戲.養成遊戲" value="" />
+      		<property key="遊戲.戀愛遊戲" value="" />
+      		<property key="遊戲.女性向遊戲" value="" />
+      		<property key="遊戲.音樂遊戲" value="" />
+      		<property key="遊戲.網頁遊戲" value="" />
+      		<property key="遊戲.獨立遊戲" value="" />
+      		<property key="遊戲.行動遊戲" value="" />
+      		<property key="遊戲.體感遊戲" value="" />
+      		<property key="遊戲.桌上遊戲" value="" />
+      		<property key="遊戲.麻將" value="" />
+      		<property key="遊戲.遊戲設計" value="" />
+      		<property key="遊戲.STEAM" value="" />
+      		<property key="遊戲.網路遊戲" value="" />
+
+      		<property key="遊戲作品.CosmicBreak" value="" />
+      		<property key="遊戲作品.Elsword" value="" />
+      		<property key="遊戲作品.DNF" value="" />
+      		<property key="遊戲作品.DOTA2" value="" />
+      		<property key="遊戲作品.FEZ" value="" />
+      		<property key="遊戲作品.GW2" value="" />
+      		<property key="遊戲作品.GTA" value="" />
+      		<property key="遊戲作品.LOL" value="" />
+      		<property key="遊戲作品.Minecraft" value="" />
+      		<property key="遊戲作品.PAD" value="" />
+      		<property key="遊戲作品.PSO2" value="" />
+      		<property key="遊戲作品.SDGO" value="" />
+      		<property key="遊戲作品.StarCraft" value="" />
+      		<property key="遊戲作品.WOW" value="" />
+      		<property key="遊戲作品.白貓Project" value="" />
+      		<property key="遊戲作品.流亡黯道 PoE" value="" />
+      		<property key="遊戲作品.新瑪奇英雄傳" value="" />
+      		<property key="遊戲作品.戰車世界" value="" />
+      		<property key="遊戲作品.戰地風雲" value="" />
+      		<property key="遊戲作品.戰爭雷霆" value="" />
+      		<property key="遊戲作品.戰機世界" value="" />
+      		<property key="遊戲作品.戰艦世界" value="" />
+      		<property key="遊戲作品.艦隊收藏" value="" />
+      		<property key="遊戲作品.魔物獵人" value="" />
+      		<property key="遊戲作品.爐石戰記" value="" />
+      		<property key="遊戲作品.星空幻想" value="" />
+      		
+      		<property key="動漫作品.東方" value="" />
+      		<property key="動漫作品.葉鍵" value="" />
+      		<property key="動漫作品.龍騎士07" value="" />
+      		<property key="動漫作品.涼宮" value="" />
+      		<property key="動漫作品.反逆" value="" />
+      		<property key="動漫作品.奈葉" value="" />
+      		<property key="動漫作品.廢怯少女" value="" />
+      		<property key="動漫作品.禁書" value="" />
+      		<property key="動漫作品.遊戲王" value="" />
+      		<property key="動漫作品.女王之刃" value="" />
+      		<property key="動漫作品.APH" value="" />
+      		<property key="動漫作品.Digimon" value="" />
+      		<property key="動漫作品.Homestuck" value="" />
+      		<property key="動漫作品.IM@S" value="" />
+      		<property key="動漫作品.LoveLive!" value="" />
+      		<property key="動漫作品.Pokemon" value="" />
+      		<property key="動漫作品.Pretty Cure" value="" />
+      		<property key="動漫作品.Saki" value="" />
+      		<property key="動漫作品.Strike Witches" value="" />
+      		<property key="動漫作品.VOCALOID" value="" />
+      		
+      		<property key="製作公司.Capcom" value="" />
+      		<property key="製作公司.GAINAX" value="" />
+      		<property key="製作公司.KOEI" value="" />
+      		<property key="製作公司.SQEX" value="" />
+      		<property key="製作公司.Capcom" value="" />
+      		<property key="製作公司.TYPE-MOON" value="" />
+      		<property key="製作公司.京都動畫" value="" />
+      		
+      		<property key="聲優藝人.聲優綜合" value="" />
+      		<property key="聲優藝人.釘宮" value="" />
+      		<property key="聲優藝人.田村/堀江/水樹" value="" />
+      		<property key="聲優藝人.川澄/能登" value="" />
+      		<property key="聲優藝人.花澤" value="" />
+      		<property key="聲優藝人.偶像" value="" />
+      		<property key="聲優藝人.AKB48" value="" />
+      		<property key="聲優藝人.Sound Horizon" value="" />
+      		
+      		<property key="專題板.角色配對" value="" />
+      		<property key="專題板.催淚" value="" />
+      		<property key="專題板.性轉換" value="" />
+      		<property key="專題板.Maid" value="" />
+      		<property key="專題板.巫女" value="" />
+      		<property key="專題板.魔女" value="" />
+      		<property key="專題板.武器娘" value="" />
+      		<property key="專題板.蘿莉" value="" />
+      		<property key="專題板.正太" value="" />
+      		<property key="專題板.御姊" value="" />
+      		<property key="專題板.兄貴" value="" />
+      		<property key="專題板.妹系" value="" />
+      		<property key="專題板.人外" value="" />
+      		<property key="專題板.獸" value="" />
+      		<property key="專題板.機娘" value="" />
+      		<property key="專題板.返信娘" value="" />
+      		<property key="專題板.Lolita Fashion" value="" />
+      		<property key="專題板.傲嬌" value="" />
+      		
+      		<property key="創作.塗鴉王國" value="" />
+      		<property key="創作.線上繪圖" value="" />
+      		<property key="創作.塗鴉保育區" value="" />
+      		<property key="創作.塗鴉工廠" value="" />
+      		<property key="創作.3D" value="" />
+      		<property key="創作.MMD" value="" />
+      		<property key="創作.同人2" value="" />
+      		<property key="創作.SOHO" value="" />
+      		<property key="創作.宣傳" value="" />
+      		
+      		<property key="飲食.飲食" value="" />
+      		<property key="飲食.酒" value="" />
+      		<property key="飲食.咖啡/茶" value="" />
+      		<property key="飲食.烹飪" value="" />
+      		<property key="飲食.素食" value="" />
+      		
+      		<property key="體育運動.體育" value="" />
+      		<property key="體育運動.足球" value="" />
+      		<property key="體育運動.單車" value="" />
+      		<property key="體育運動.武術" value="" />
+      		
+      		<property key="動物.動物綜合" value="" />
+      		<property key="動物.犬" value="" />
+      		<property key="動物.貓" value="" />
+      		<property key="動物.鳥" value="" />
+      		<property key="動物.蟲" value="" />
+      		<property key="動物.水族" value="" />
+      		<property key="動物.認養" value="" />
+      		
+      		<property key="桌布壁紙.二次壁" value="" />
+      		<property key="桌布壁紙.手機壁" value="" />
+      		<property key="桌布壁紙.PSP壁" value="" />
+      		
+      		<property key="電腦網路.電腦" value="" />
+      		<property key="電腦網路.Pixmicat!" value="" />
+      		<property key="電腦網路.Joyful Note" value="" />
+      		<property key="電腦網路.程設交流" value="" />
+      		<property key="電腦網路.網頁設計" value="" />
+      		<property key="電腦網路.Apple" value="" />
+
+      		<property key="本地板.文化交流" value="" />
+      		<property key="本地板.新聞" value="" />
+      		<property key="本地板.寫真" value="" />
+      		<property key="本地板.女性角色" value="" />
+      		<property key="本地板.男性角色" value="" />
+      		<property key="本地板.中性角色" value="" />
+      		<property key="本地板.四格" value="" />
+      		<property key="本地板.擬人化" value="" />
+      		<property key="本地板.少女漫畫" value="" />
+      		<property key="本地板.音樂" value="" />
+      		<property key="本地板.布袋戲" value="" />
+      		<property key="本地板.小說" value="" />
+      		<property key="本地板.奇幻" value="" />
+      		<property key="本地板.紙牌" value="" />
+      		<property key="本地板.高解析度" value="" />
+      		<property key="本地板.GIF" value="" />
+      		<property key="本地板.FLASH" value="" />
+      		<property key="本地板.MAD" value="" />
+      		<property key="本地板.素材" value="" />
+      		<property key="本地板.求圖" value="" />
+      		<property key="本地板.測試" value="" />
+      		
+      		<property key="文字板.綜合討論" value="" />
+      		<property key="文字板.連結" value="" />
+      		<property key="文字板.豆知識" value="" />
+      		<property key="文字板.電腦" value="" />
+      		<property key="文字板.單身" value="" />
+      		<property key="文字板.寫作" value="" />
+      		
+      		<property key="其他.KomicaWiki" value="" />
+      		<property key="其他.精華區" value="" />
+      		<property key="其他.Komicolle" value="" />
+      		
+      		<property key="聊天室.BarGiko" value="" />
+      		<property key="聊天室.IRC" value="" />
+      		
+      		<property key="外部連結.Komica2" value="" />
+      		<property key="外部連結.0rz.tw" value="" />
+      		<property key="外部連結.Google 日本" value="" />
+      		<property key="外部連結.goo 辞書" value="" />
+      		<property key="外部連結.Yahoo! 字典" value="" />
+      		<property key="外部連結.英漢字典" value="" />
+      		<property key="外部連結.國語辭典" value="" />
+      		<property key="外部連結.翻訳" value="" />
+      		<property key="外部連結.維基百科" value="" />
+      		<property key="外部連結.Yahoo! 知識+" value="" />
+      		<property key="外部連結.繁簡轉換" value="" />
+      		<property key="外部連結.假名注音" value="" />
+      		<property key="外部連結.漢字轉換" value="" />
+      		
+      		<property key="失效連結.外國語" value="" />
+      		<property key="失效連結.海外生活" value="" />
+      		<property key="失效連結.SF" value="" />
+      		<property key="失效連結.國際政治" value="" />
+      		<property key="失效連結.樂器．作曲" value="" />
+      		<property key="失效連結.同人" value="" />
+      		<property key="失效連結.三次壁" value="" />
+		</use-mapping>
+
+		<use-mapping type="sticky">
+			<property key="連線板.貓管理部" value="" />
+      		<property key="連線板.站務公告" value="" />
+      		<property key="連線板.動畫" value="" />
+		    <property key="連線板.漫畫" value="" />
+		    <property key="連線板.影視" value="" />
+   		    <property key="連線板.綜合" value="" />
+      		<property key="連線板.掛圖" value="" />
+	        <property key="連線板.氣象" value="" />
+			<property key="連線板.綜合2" value="" />
+      		<property key="連線板.新番捏他" value="" />
+      		<property key="連線板.三次實況" value="" />
+      		<property key="連線板.新番實況" value="mapping3.1" />
+      		<property key="連線板.模型" value="" />
+      		<property key="連線板.玩偶" value="" />
+      		<property key="連線板.Figure/GK" value="" />
+      		<property key="連線板.螢幕攝" value="" />
+      		<property key="連線板.歡樂惡搞" value="" />
+      		<property key="連線板.特攝" value="" />
+      		<property key="連線板.祭典" value="" />
+      		<property key="連線板.治癒系" value="" />
+      		<property key="連線板.蘿蔔" value="" />
+      		<property key="連線板.攝影" value="" />
+      		<property key="連線板.軍武" value="" />
+      		<property key="連線板.車" value="" />
+      		<property key="連線板.詢問" value="" />
+     		<property key="連線板.AA" value="" />
+      		<property key="連線板.COSPLAY" value="" />
+      		<property key="連線板.改造" value="" />
+      		<property key="連線板.委託" value="" />
+      		<property key="連線板.投票所" value="" />
+      		<property key="連線板.問答" value="" />
+      		<property key="連線板.UP" value="" />
+      		
+      		<property key="連線二板.綜合學術" value="" />
+      		<property key="連線二板.數學" value="" />
+  		    <property key="連線二板.歷史" value="" />
+  		    <property key="連線二板.地理" value="" />
+    		<property key="連線二板.校園" value="" />
+  		    <property key="連線二板.職業" value="" />
+     		<property key="連線二板.財經" value="" />
+		    <property key="連線二板.生活消費" value="" />
+  		    <property key="連線二板.法律" value="" />
+ 		    <property key="連線二板.閒談@香港" value="" />
+      		<property key="連線二板.消費電子" value="" />
+      		<property key="連線二板.藝術" value="" />
+      		<property key="連線二板.繪師" value="" />
+      		<property key="連線二板.角色商品" value="" />
+      		<property key="連線二板.交易合購" value="" />
+      		<property key="連線二板.鋼普拉" value="" />
+      		<property key="連線二板.生存遊戲" value="" />
+      		<property key="連線二板.鐵道" value="" />
+      		<property key="連線二板.燃" value="" />
+      		<property key="連線二板.笑話" value="" />
+      		<property key="連線二板.猜謎" value="" />
+      		<property key="連線二板.故事接龍" value="" />
+      		<property key="連線二板.歐美漫畫" value="" />
+      		<property key="連線二板.歐美動畫" value="" />
+      		<property key="連線二板.大自然" value="" />
+      		<property key="連線二板.天文" value="" />
+      		<property key="連線二板.星座命理" value="" />
+      		<property key="連線二板.New Age" value="" />
+      		<property key="連線二板.戀愛" value="" />
+      		<property key="連線二板.超常現象" value="" />
+      		<property key="連線二板.夢" value="" />
+      		<property key="連線二板.流言終結" value="" />
+      		<property key="連線二板.政治" value="" />
+      		<property key="連線二板.旅遊" value="" />
+      		<property key="連線二板.耳機" value="" />
+      		<property key="連線二板.手機" value="" />
+      		<property key="連線二板.服飾" value="" />
+      		<property key="連線二板.美容" value="" />
+      		<property key="連線二板.髮型" value="" />
+      		<property key="連線二板.家政" value="" />
+      		<property key="連線二板.手工藝" value="" />
+      		<property key="連線二板.痛物" value="" />
+      		<property key="連線二板.圖書" value="" />
+      		<property key="連線二板.讀書筆記" value="" />
+      		<property key="連線二板.煩惱相談" value="" />
+      		<property key="連線二板.安價" value="" />
+      		
+      		<property key="影音.短片" value="" />
+			<property key="影音.短片2" value="" />
+			<property key="影音.彈幕" value="" />
+			<property key="影音.直播" value="" />
+			<property key="影音.Video" value="" />
+      		
+      		<property key="遊戲.遊戲速報" value="" />
+      		<property key="遊戲.綜合遊戲" value="" />
+      		<property key="遊戲.動作遊戲" value="" />
+      		<property key="遊戲.格鬥遊戲" value="" />
+      		<property key="遊戲.2D STG" value="" />
+      		<property key="遊戲.3D STG" value="" />
+      		<property key="遊戲.冒險遊戲" value="" />
+      		<property key="遊戲.RPG" value="" />
+      		<property key="遊戲.賽車遊戲" value="" />
+      		<property key="遊戲.戰略遊戲" value="" />
+      		<property key="遊戲.養成遊戲" value="" />
+      		<property key="遊戲.戀愛遊戲" value="" />
+      		<property key="遊戲.女性向遊戲" value="" />
+      		<property key="遊戲.音樂遊戲" value="" />
+      		<property key="遊戲.網頁遊戲" value="" />
+      		<property key="遊戲.獨立遊戲" value="" />
+      		<property key="遊戲.行動遊戲" value="" />
+      		<property key="遊戲.體感遊戲" value="" />
+      		<property key="遊戲.桌上遊戲" value="" />
+      		<property key="遊戲.麻將" value="" />
+      		<property key="遊戲.遊戲設計" value="" />
+      		<property key="遊戲.STEAM" value="" />
+      		<property key="遊戲.網路遊戲" value="" />
+
+      		<property key="遊戲作品.CosmicBreak" value="" />
+      		<property key="遊戲作品.Elsword" value="" />
+      		<property key="遊戲作品.DNF" value="" />
+      		<property key="遊戲作品.DOTA2" value="" />
+      		<property key="遊戲作品.FEZ" value="" />
+      		<property key="遊戲作品.GW2" value="" />
+      		<property key="遊戲作品.GTA" value="" />
+      		<property key="遊戲作品.LOL" value="" />
+      		<property key="遊戲作品.Minecraft" value="" />
+      		<property key="遊戲作品.PAD" value="" />
+      		<property key="遊戲作品.PSO2" value="" />
+      		<property key="遊戲作品.SDGO" value="" />
+      		<property key="遊戲作品.StarCraft" value="" />
+      		<property key="遊戲作品.WOW" value="" />
+      		<property key="遊戲作品.白貓Project" value="" />
+      		<property key="遊戲作品.流亡黯道 PoE" value="" />
+      		<property key="遊戲作品.新瑪奇英雄傳" value="" />
+      		<property key="遊戲作品.戰車世界" value="" />
+      		<property key="遊戲作品.戰地風雲" value="" />
+      		<property key="遊戲作品.戰爭雷霆" value="" />
+      		<property key="遊戲作品.戰機世界" value="" />
+      		<property key="遊戲作品.戰艦世界" value="" />
+      		<property key="遊戲作品.艦隊收藏" value="" />
+      		<property key="遊戲作品.魔物獵人" value="" />
+      		<property key="遊戲作品.爐石戰記" value="" />
+      		<property key="遊戲作品.星空幻想" value="" />
+      		
+      		<property key="動漫作品.東方" value="" />
+      		<property key="動漫作品.葉鍵" value="" />
+      		<property key="動漫作品.龍騎士07" value="" />
+      		<property key="動漫作品.涼宮" value="" />
+      		<property key="動漫作品.反逆" value="" />
+      		<property key="動漫作品.奈葉" value="" />
+      		<property key="動漫作品.廢怯少女" value="" />
+      		<property key="動漫作品.禁書" value="" />
+      		<property key="動漫作品.遊戲王" value="" />
+      		<property key="動漫作品.女王之刃" value="" />
+      		<property key="動漫作品.APH" value="" />
+      		<property key="動漫作品.Digimon" value="" />
+      		<property key="動漫作品.Homestuck" value="" />
+      		<property key="動漫作品.IM@S" value="" />
+      		<property key="動漫作品.LoveLive!" value="" />
+      		<property key="動漫作品.Pokemon" value="" />
+      		<property key="動漫作品.Pretty Cure" value="" />
+      		<property key="動漫作品.Saki" value="" />
+      		<property key="動漫作品.Strike Witches" value="" />
+      		<property key="動漫作品.VOCALOID" value="" />
+      		
+      		<property key="製作公司.Capcom" value="" />
+      		<property key="製作公司.GAINAX" value="" />
+      		<property key="製作公司.KOEI" value="" />
+      		<property key="製作公司.SQEX" value="" />
+      		<property key="製作公司.Capcom" value="" />
+      		<property key="製作公司.TYPE-MOON" value="" />
+      		<property key="製作公司.京都動畫" value="" />
+      		
+      		<property key="聲優藝人.聲優綜合" value="" />
+      		<property key="聲優藝人.釘宮" value="" />
+      		<property key="聲優藝人.田村/堀江/水樹" value="" />
+      		<property key="聲優藝人.川澄/能登" value="" />
+      		<property key="聲優藝人.花澤" value="" />
+      		<property key="聲優藝人.偶像" value="" />
+      		<property key="聲優藝人.AKB48" value="" />
+      		<property key="聲優藝人.Sound Horizon" value="" />
+      		
+      		<property key="專題板.角色配對" value="" />
+      		<property key="專題板.催淚" value="" />
+      		<property key="專題板.性轉換" value="" />
+      		<property key="專題板.Maid" value="" />
+      		<property key="專題板.巫女" value="" />
+      		<property key="專題板.魔女" value="" />
+      		<property key="專題板.武器娘" value="" />
+      		<property key="專題板.蘿莉" value="" />
+      		<property key="專題板.正太" value="" />
+      		<property key="專題板.御姊" value="" />
+      		<property key="專題板.兄貴" value="" />
+      		<property key="專題板.妹系" value="" />
+      		<property key="專題板.人外" value="" />
+      		<property key="專題板.獸" value="" />
+      		<property key="專題板.機娘" value="" />
+      		<property key="專題板.返信娘" value="" />
+      		<property key="專題板.Lolita Fashion" value="" />
+      		<property key="專題板.傲嬌" value="" />
+      		
+      		<property key="創作.塗鴉王國" value="" />
+      		<property key="創作.線上繪圖" value="" />
+      		<property key="創作.塗鴉保育區" value="" />
+      		<property key="創作.塗鴉工廠" value="" />
+      		<property key="創作.3D" value="" />
+      		<property key="創作.MMD" value="" />
+      		<property key="創作.同人2" value="" />
+      		<property key="創作.SOHO" value="" />
+      		<property key="創作.宣傳" value="" />
+      		
+      		<property key="飲食.飲食" value="" />
+      		<property key="飲食.酒" value="" />
+      		<property key="飲食.咖啡/茶" value="" />
+      		<property key="飲食.烹飪" value="" />
+      		<property key="飲食.素食" value="" />
+      		
+      		<property key="體育運動.體育" value="" />
+      		<property key="體育運動.足球" value="" />
+      		<property key="體育運動.單車" value="" />
+      		<property key="體育運動.武術" value="" />
+      		
+      		<property key="動物.動物綜合" value="" />
+      		<property key="動物.犬" value="" />
+      		<property key="動物.貓" value="" />
+      		<property key="動物.鳥" value="" />
+      		<property key="動物.蟲" value="" />
+      		<property key="動物.水族" value="" />
+      		<property key="動物.認養" value="" />
+      		
+      		<property key="桌布壁紙.二次壁" value="" />
+      		<property key="桌布壁紙.手機壁" value="" />
+      		<property key="桌布壁紙.PSP壁" value="" />
+      		
+      		<property key="電腦網路.電腦" value="" />
+      		<property key="電腦網路.Pixmicat!" value="" />
+      		<property key="電腦網路.Joyful Note" value="" />
+      		<property key="電腦網路.程設交流" value="" />
+      		<property key="電腦網路.網頁設計" value="" />
+      		<property key="電腦網路.Apple" value="" />
+
+      		<property key="本地板.文化交流" value="" />
+      		<property key="本地板.新聞" value="" />
+      		<property key="本地板.寫真" value="" />
+      		<property key="本地板.女性角色" value="" />
+      		<property key="本地板.男性角色" value="" />
+      		<property key="本地板.中性角色" value="" />
+      		<property key="本地板.四格" value="" />
+      		<property key="本地板.擬人化" value="" />
+      		<property key="本地板.少女漫畫" value="" />
+      		<property key="本地板.音樂" value="" />
+      		<property key="本地板.布袋戲" value="" />
+      		<property key="本地板.小說" value="" />
+      		<property key="本地板.奇幻" value="" />
+      		<property key="本地板.紙牌" value="" />
+      		<property key="本地板.高解析度" value="" />
+      		<property key="本地板.GIF" value="" />
+      		<property key="本地板.FLASH" value="" />
+      		<property key="本地板.MAD" value="" />
+      		<property key="本地板.素材" value="" />
+      		<property key="本地板.求圖" value="" />
+      		<property key="本地板.測試" value="" />
+      		
+      		<property key="文字板.綜合討論" value="" />
+      		<property key="文字板.連結" value="" />
+      		<property key="文字板.豆知識" value="" />
+      		<property key="文字板.電腦" value="" />
+      		<property key="文字板.單身" value="" />
+      		<property key="文字板.寫作" value="" />
+      		
+      		<property key="其他.KomicaWiki" value="" />
+      		<property key="其他.精華區" value="" />
+      		<property key="其他.Komicolle" value="" />
+      		
+      		<property key="聊天室.BarGiko" value="" />
+      		<property key="聊天室.IRC" value="" />
+      		
+      		<property key="外部連結.Komica2" value="" />
+      		<property key="外部連結.0rz.tw" value="" />
+      		<property key="外部連結.Google 日本" value="" />
+      		<property key="外部連結.goo 辞書" value="" />
+      		<property key="外部連結.Yahoo! 字典" value="" />
+      		<property key="外部連結.英漢字典" value="" />
+      		<property key="外部連結.國語辭典" value="" />
+      		<property key="外部連結.翻訳" value="" />
+      		<property key="外部連結.維基百科" value="" />
+      		<property key="外部連結.Yahoo! 知識+" value="" />
+      		<property key="外部連結.繁簡轉換" value="" />
+      		<property key="外部連結.假名注音" value="" />
+      		<property key="外部連結.漢字轉換" value="" />
+      		
+      		<property key="失效連結.外國語" value="" />
+      		<property key="失效連結.海外生活" value="" />
+      		<property key="失效連結.SF" value="" />
+      		<property key="失效連結.國際政治" value="" />
+      		<property key="失效連結.樂器．作曲" value="" />
+      		<property key="失效連結.同人" value="" />
+      		<property key="失效連結.三次壁" value="" />			
+		</use-mapping>
+	</source>
+</komica-configuration>
+

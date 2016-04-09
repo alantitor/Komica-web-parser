@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<komica-mapping>
+	<class package="com.alssc.komicaparser.parser.rule.sticky" type="sticky">
+		<action>
+			<key value="mapping3.1" /> <!-- mapping value -->
+			<rule value="StickyRule1" /> <!-- class name -->
+		</action>
+		
+		<action>
+			<key value="mapping3.2" />
+			<rule value="StickyRule2" />
+		</action>
+	</class>
+</komica-mapping>

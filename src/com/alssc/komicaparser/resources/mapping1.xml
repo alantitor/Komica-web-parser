@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<komica-mapping>
+	<class package="com.alssc.komicaparser.parser.rule.menu" type="menu">
+		<action>
+			<key value="mapping1.1" /> <!-- mapping value -->
+			<rule value="MenuRule1" /> <!-- class name -->
+		</action>
+		
+		<action>
+			<key value="mapping1.2" />
+			<rule value="MenuRule2" />
+		</action>
+	</class>
+</komica-mapping>

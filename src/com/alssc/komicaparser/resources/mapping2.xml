@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<komica-mapping>
+	<class package="com.alssc.komicaparser.parser.rule.bulletin" type="bulletin">
+		<action>
+			<key value="mapping2.1" /> <!-- mapping value -->
+			<rule value="BulletinRule1" /> <!-- class name -->
+		</action>
+		
+		<action>
+			<key value="mapping2.2" />
+			<rule value="BulletinRule2" />
+		</action>
+	</class>
+</komica-mapping>
